@@ -1,7 +1,7 @@
 Full-Stack Decentralized Order Book Exchange
-This project is a complete, real-time, full-stack decentralized trading platform that features an off-chain order matching engine and on-chain settlement via a smart contract on the Sepolia testnet.
+A complete, real-time, full-stack decentralized trading platform featuring an off-chain order matching engine and on-chain settlement via a smart contract on the Sepolia testnet.
 
-Features
+📋 Features
 Real-time Order Book: Live updates for bids and asks using WebSockets.
 
 Off-Chain Matching Engine: A high-performance matching engine built in Python for instant order processing.
@@ -12,7 +12,7 @@ Wallet Integration: Connects to user wallets (like MetaMask) for secure trade au
 
 Dockerized Environment: The entire application stack (frontend, backend, worker, database, message queue) is containerized for easy setup and deployment.
 
-Prerequisites
+🛠️ Prerequisites
 Before you begin, ensure you have the following installed on your system:
 
 Docker & Docker Compose: Install Docker Desktop
@@ -21,7 +21,9 @@ Node.js: Required for the Hardhat project.
 
 A Web3 Wallet: Like MetaMask, configured for the Sepolia testnet.
 
-🚀 How to Run the Application
+🚀 Getting Started
+Follow these steps to get the application running on your local machine.
+
 1. Clone the Repository
 First, clone this repository to your local machine.
 
@@ -70,13 +72,11 @@ docker-compose up --build
 
 This command will build the images for your frontend, backend, and worker services and then start all the containers.
 
-Accessing the Application
+🌐 Accessing the Application
 Once the containers are running, you can access the different parts of the application:
 
 Frontend Application: http://localhost:8080
 
 Backend API Docs: http://localhost:8000/docs
 
-RabbitMQ Management: http://localhost:15672 (user: guest, pass: guest)
-
-You can now connect your wallet, mock your balances, and start testing the full trading and settlement flow!
+RabbitMQ Management: [http://localhost:15672](http
