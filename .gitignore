@@ -1,0 +1,25 @@
+# Environment variables
+.env
+
+# Node.js dependencies
+node_modules/
+
+# Frontend build output
+/frontend/dist
+/frontend/.vite
+
+# Python artifacts
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Hardhat artifacts
+/settlement-contract/artifacts
+/settlement-contract/cache
+/settlement-contract/typechain-types
+
+# IDE and OS files
+.idea/
+.vscode/
+.DS_Store
